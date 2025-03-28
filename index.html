@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Cocina</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cocina</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 langs">
+                    <li>
+                        <a href="#"><img src="icons/flag_es.png" height="24" width="auto" alt="Español" title="Español" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="icons/flag_ru.png" height="24" width="auto" alt="Русский" title="Русский" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="icons/flag_it.png" height="24" width="auto" alt="Italiano" title="Italiano" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="icons/flag_uk.png" height="24" width="auto" alt="English" title="English" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2>Tu cocina</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <h2>Recent</h2>
+                    <ul class="list-header">
+                        <li><a href="#">Plato 1</a></li>
+                        <li><a href="#">Plato 2</a></li>
+                        <li><a href="#">Plato 3</a></li>
+                        <li><a href="#">Plato 4</a></li>
+                        <li><a href="#">Plato 5</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <h2>Most popular</h2>
+                    <ul class="list-header">
+                        <li><a href="#">Asado</a></li>
+                        <li><a href="#">Cuy frito</a></li>
+                        <li><a href="#">Ceviche</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <h2>Random</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+<div class="wrapper-main">
+    <div class="container">
+        <div class="row">
+            <aside class="col-12 col-lg-4">
+                <form class="d-flex" role="search" id="search-main">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Categories</h5>
+                        <ul>
+                            <li><a href="#">Sopas</a></li>
+                            <li><a href="#">Carne</a></li>
+                            <li><a href="#">Pájaros</a>
+                                <ul>
+                                    <li><a href="#">Vaca</a></li>
+                                    <li><a href="#">Cerda</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Ensaladas</a></li>
+                            <li><a href="#">Verduras</a></li>
+                            <li><a href="#">Frutas</a></li>
+                            <li><a href="#">Dulce</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Products</h5>
+                        <ul>
+                            <li><a href="#">Carne</a></li>
+                            <li><a href="#">Verduras</a></li>
+                            <li><a href="#">Frutas</a></li>
+                            <li><a href="#">Especias</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            <main class="col-12 col-lg-8">
+                <h1>Cuy frito</h1>
+                <img src="img/cuy_frito.jpg" class="img-fluid" alt="Cuy frito, жареный куй" title="Cuy frito, жареный куй" />
+                <p>Cuy frito es la comida nacional de Perú</p>
+            </main>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                © 2025 Natalia & Vitalii Chubatyi
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

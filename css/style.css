@@ -1,0 +1,113 @@
+ul {
+    color: #089C1C;
+}
+
+.wrapper-top {
+    background-image: url("../img/cocina.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper-main {
+    background-color: #fcfcfc;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.66);
+}
+
+.langs {
+    display: table-row;
+}
+
+.langs li {
+    display: table-cell;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.6);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+footer {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: #000000;
+    color: #fcfcfc;
+    text-align: center;
+}
+
+#search-main {
+    margin: 1rem 0;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    background: none;
+    margin-bottom: 1rem;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-body > h5 {
+    font-weight: 600;
+    color: #089C1C;
+}
+
+.card-body ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card-body ul ul {
+    padding-left: 1rem;
+}
+
+.card-body a, .card-body a:visited {
+    color: #089C1C;
+    display: block;
+    text-decoration: none;
+    padding: 0.25rem;
+    transition-duration: 0.5s;
+}
+
+.card-body a:hover {
+    background-color: #089C1C;
+    color: #ffffff;
+    transition-duration: 0.5s;
+}
+
+h1 {
+    font-weight: 600;
+    color: #089C1C;
+}
+
+h2 {
+    font-weight: 600;
+    color: #0dcf28;
+}
+
+.list-header {
+    list-style: none;
+    padding: 0;
+}
+
+.list-header a, .list-header a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.25rem;
+    display: block;
+    transition-duration: 0.5s;
+}
+
+.list-header a:hover {
+    color: #000000;
+    background-color: #ffffff;
+    transition-duration: 0.5s;
+}
