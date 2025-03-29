@@ -25,13 +25,26 @@ ul {
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.66);
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-.langs {
+.menu-main a, .menu-main a:visited {
+    color: #ffffff;
+    transition-duration: 0.5s;
+}
+
+.menu-main a:hover {
+    color: #089C1C;
+    background-color: rgba(255, 255, 255, 0.66);
+    transition-duration: 0.5s;
+}
+
+.menu-langs {
     display: table-row;
 }
 
-.langs li {
+.menu-langs li {
     display: table-cell;
 }
 
